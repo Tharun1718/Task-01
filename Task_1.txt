@@ -1,0 +1,41 @@
+What is HTTP?
+
+HTTP stands for hypertext transfer protocol and it is the method by which computers and servers interact with each other. The first usable version of HTTP was created in 1997,which is also referred to as HTTP 1.1. In 2015, a new version of HTTP called as HTTP 2 was created.
+
+
+HTTP 1.1 vs HTTP 2:
+
+HTTP 2 is more efficient and can load data much faster than HTTP 1.1. This is because HTTP 2 can load several resources at a time while HTTP 1.1 can load the resources only one by one. Suppose if one resource is not loaded in HTTP 1.1, then it can block all other resources which are behind it. HTTP 2 loads several data at a time by converting the data into binary codes. This process of loading multiple streams of data by HTTP 2 is known as multiplexing.
+ 
+In addition to multiplexing, HTTP 2 also allows developers to provide weightage to the content so that it can load in a way as they prefer it to. By using this method of prioritization, developers have some degree of control over the page load speed which is not possible in HTTP 1.1.
+
+Generally, larger files take more time to load than the smaller ones. To improve the performance of a web page both HTTP 1.1 and HTTP 2 compress HTTP messages to make them smaller. However HTTP 2 uses an advanced method called HPACK.
+
+
+OBJECT AND ITS INTERNAL REPRESENTATION IN JAVA SCRIPT
+
+Objects are one of the important data types in JavaScript. Objects can hold many values in the form of Key:value pairs. JavaScript object may be defined as unordered collection of related data in the form of "key:value" pairs. The keys can be variables or functions and are called properties and methods respectively, in the context of the object.
+
+From the above definition, it may seem a little complicated to understand about objects. So lets dig deep into objects to understand even more. For instance, every individual in our country(India) has an adhaar card.So in each persons aadhar, they are few details like aadhar number, name, dob, age and so on. Each one of them has same property but their property value differs from one another.
+
+Look at the below code:
+var aadhar={
+                         number:123456789245,
+                         name:Ravi,
+                         age:26
+};
+The above code assign many values to the variable named aadhar. The values are written as name:value pairs.
+
+These name:value pairs are called properties. Number,name,age comes under property name and 123456789245, Ravi, 26 comes under property value.
+
+Properties can be added,deleted and changed.The various syntax for adding,deleting and accesing a property from an object is shown below:
+
+The syntax for adding a property to an object is: 
+         ObjectName.ObjectProperty = propertyValue;
+
+The syntax for deleting a property from an object is:
+         delete ObjectName.ObjectProperty;
+
+The syntax for accessing a property from an object is:
+         ObjectName.property;
+
